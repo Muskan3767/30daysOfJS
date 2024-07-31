@@ -141,9 +141,9 @@ const highOrder = (num,func1,func2) =>{
     return res2;
 };
 
-let n = 6;
-let resultFinal = highOrder(n,finddouble,findSquare);
+let n1 = 6;
+let resultFinal = highOrder(n1,finddouble,findSquare);
 
-console.log("After applying higher order function on ",n,"which takes two function passed as a perimeter first function double the number and second will find square of it,the result is :",resultFinal);
+console.log("After applying higher order function on ",n1,"which takes two function passed as a perimeter first function double the number and second will find square of it,the result is :",resultFinal);
 
 //output : After applying higher order function on  6 which takes two function passed as a perimeter first function double the number and second will find square of it,the result is : 144
